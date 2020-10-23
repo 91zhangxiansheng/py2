@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.7.0 http://maven.apache.org/xsd/decoration-1.7.0.xsd" name="infxnity">
+
+	<skin>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-fluido-skin</artifactId>
+		<version>1.6</version>
+	</skin>
+
+	<custom>
+		<fluidoSkin>
+			<googlePlusOne />
+			<facebookLike />
+			<gitHub>
+				<projectId>ben12/infxnity</projectId>
+				<ribbonOrientation>right</ribbonOrientation>
+				<ribbonColor>gray</ribbonColor>
+			</gitHub>
+		</fluidoSkin>
+	</custom>
+
+	<body>
+		<menu ref="reports" inherit="top" />
+		<menu name="External reports">
+			<item name="Tavis-CI" href="https://travis-ci.org/ben12/infxnity/branches" />
+			<item name="SonarCloud" href="https://sonarcloud.io/dashboard?id=com.ben12%3Ainfxnity" />
+		</menu>
+	</body>
+</project>
