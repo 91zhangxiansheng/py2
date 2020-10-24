@@ -17,9 +17,9 @@ let index=$index+1
 let countadd=$countadd+$avg+$RANDOM
 let c=$countadd+$startTime
 
-OLD_EMAIL="namu0136405119@163.com"
-CORRECT_NAME="Anamuq"
-CORRECT_EMAIL="Anamu0136405119@163.com"
+OLD_EMAIL="Anamu0136405119@163.com"
+CORRECT_NAME="91zhangxiansheng"
+CORRECT_EMAIL="zhangmujhv@163.com"
 
 if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
 then
